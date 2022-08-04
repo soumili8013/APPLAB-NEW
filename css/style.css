@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navber */
+
+.logo-img{
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+}
+
+.navbar-nav{
+letter-spacing: 1px;
+font-size: 20px;
+cursor: pointer;
+}
+.navbar-dark .navbar-nav {
+    color: white!important;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc400!important;
+  }
+.nav-button{
+  background-color: #fff !important;
+  color: #090085 !important;
+}
+
+.nav-button:hover{
+  color: #fff !important;
+  background-color: #090085 !important;
+}
+
+  /* banner */
+
+  .banner{
+        background-image: url(../images/hero-bg.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+  }
+
+  .banner-content{
+    margin-top: 20% !important;
+  }
+  .banner-content p{
+    font-size: 20px;
+    color: #9d9d9d;
+    font-weight: 500;
+  }
+  .arrow-box p{
+    font-size: 13px;
+    padding-top: 6px;
+  }
+  .banner-content h2{
+    font-size: 50px;
+    padding: 5% 0;
+    font-weight: 900;
+  }
+  .banner-img >img{
+    transform: rotate(20deg);
+    width: 68%;
+    margin: 15%;
+  }
+
+.arrow-box{
+    width: 55%;
+    font-size: 14px;
+    background-color: rgb(225, 225, 225) !important;
+}
+  .arrow-box img{
+    float: left;
+  }
+
+.button-37 {
+  background-color: #090085;
+  border: 1px solid #090085;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 5%;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+
+
+/* Trusted by companies like */
+
+
+.trust h2{
+  margin-top: 5%;
+  font-size: 40px;
+  color: #9d9d9d;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+
+/* Awesome apps features */
+
+#scroll-3{
+  margin-top: 5%;
+}
+
+.Awesome-img img{
+  width: 100%;
+  margin-top: 15%;
+}
+.Awesome-content h2{
+  font-size: 3rem;
+  padding: 2%;
+}
+
+.Awesome-content p{
+  color: #9d9d9d;
+  font-size: 20px;
+  padding: 2%;
+}
+/* Smart jackpots  */
+
+
+.jackpots{
+  margin-top: 5%;
+}
+.jackpots-content{
+  border-right: 2px solid #9d9d9d !important;
+}
+.jackpots-content h1{
+  font-size: 3rem;
+}
+.jackpots-content-2 p{
+  margin-top: 4%;
+  font-size: 20px;
+    line-height: 2;
+color: #9d9d9d;
+}
+
+
+/* Testimonial */
+
+.Testimonial{
+  margin-top: 5%;
+}
+
+
+/* Designed & built by the latest code
+integration  */
+
+
+.Designed{
+  margin-top: 5%;
+}
+.built img{
+  width: 100%;
+}
+.Designed-content h2{
+font-size: 3rem;
+padding: 3%;
+}
+.Designed-content p{
+  color: #9d9d9d;
+  font-size: 20px;
+  padding: 3%;
+}
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+/*  Why you should choose
+our app */
+
+.choose-app{
+  margin-top: 5%;
+  text-align: center;
+  
+}
+.choose-app h2{
+  font-size: 3rem;
+    width: 45%;
+    font-weight: 700;
+    margin-left: 27%;
+}
+.choose-app p{
+   font-size:20px;
+    width: 45%;
+    margin-left: 27%;
+    color: #9d9d9d;
+}
+
+
+/* Ultimate features
+that we built */
+
+
+.Ultimat{
+  margin-top: 5%;
+}
+.features-img img{
+  width: 100%;
+  margin-top: 8%;
+}
+
+.built-button{
+  padding: 5% 17% !important;
+  font-size: 20px !important;
+
+}
+/* Get awesome features, without extra charges */
+
+
+.charges{
+  text-align: center;
+  margin: 5% 20%;
+  width: 59%;
+}
+.charges h2{
+  font-size: 3rem;
+}
+.charges p{
+  font-size: 20px;
+  color: #9d9d9d;
+  padding: 3% 11%;
+}
+.name-yearly-check{
+  text-align: center;
+}
+
+.name-yearly-check {
+  text-align: center!important;
+}
+
+.form-check-input{
+  margin: 4px 20px!important;
+  justify-content: center;
+  align-items: center;
+}
+
+.charge-content{
+  margin-top: 5%!important;
+}
+
+
+.chack-1{
+
+float: left;
+padding-right: 3.5%;
+}
+
+.charges{
+  margin-top: 5%;
+  
+}
+
+
+/* Meet Client Satisfaction
+by using product */
+
+.Client{
+  margin-top: 5%;
+}
+.Client-img img{
+  width: 100%;
+  margin-top: 20%;
+}
+.Client-carasol h2{
+  font-weight: 600;
+  font-size: 3rem;
+}
+.Client-carasol p{
+  color: #9d9d9d;
+  font-size: 20px;
+}
+.Client-icon{
+  color: #ffc400 !important;
+}
+.Client-content img{
+  float: left;
+  padding: 2% 3%;
+  border-radius: 50%;
+}
+.Client-content h3{
+  margin-top: 6% ;
+}
+
+
+
+
+/* Frequentl asked questions */
+
+.questions{
+  text-align: center;
+  margin-top: 5%;
+}
+.questions h2{
+  font-size: 2.5rem;
+  color: #242F51;
+}
+.questions p{
+  color:#9d9d9d;
+  width: 49%;
+  margin: 2% 25%;
+}
+.accordion-button {
+color:#000922 !important;
+font-size: 20px !important;
+font-weight: 600 !important;
+}
+
+.accordion-body{
+background-color: whitesmoke;
+text-align: left;
+color: #9d9d9d;
+}
+
+
+/* Download our App now */
+
+
+.Download{
+  margin-top: 5%;
+}
+.Download-img img{
+  width: 100%;
+  margin-top: 15%;
+}
+.Download-content{
+  padding-top: 5%;
+}
+.Download-content h2{
+  font-size: 4rem;
+}
+.Download-content p{
+  color: #9d9d9d;
+  
+}
+
+
+/* footer */
+
+.footer-section{
+  margin-top: 5%;
+  background-color: #242F51 !important;
+text-align: center;
+
+}
+
+.footer-logo{
+  padding-top: 5%;
+    margin-left: 45%;
+
+}
+
+.footer-ul{
+  padding-top: 5%;
+  text-align: center;
+  margin-left: 20%;
+
+}
+.footer-ul li{
+  list-style: none;
+  padding-left: 5%;
+  float: left;
+}
+.footer-ul li a{
+  color: azure;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.footer-ul li a:hover{
+
+}
+.footer-icon-ul{
+  margin-left: 37%;
+}
+.footer-icon-ul li a{
+  font-size: 30px;
+}
+.fooyer-a{
+  padding: 5% 0;
+  color: #fff;
+}
+.fooyer-a a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.ft-logo{
+  color:#fff
+}
+.fa-heart{
+  color: rgba(232, 16, 0, 0.761);
+}
+
+
+
+
+@media (min-width: 576px) { 
+
+
+
+  
+ }

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 575px){
+
+    .arrow-box{
+        width: auto;
+        background-color:#000;
+    }
+    .banner-img{
+        display: none;
+    }
+    .trust{
+        display: none;
+    }
+    .footer-logo{
+        margin-left: 0;
+    }
+    .footer-ul{
+        margin-left: 0;
+    }
+    .footer-ul li{
+        float: inherit;
+        text-align: left;
+        margin-top: 10%;
+    }
+
+    .footer-icon-ul li{
+        margin-top: 2%;
+        float: left;
+    }
+    .fooyer-a {
+        padding: 13% 0;
+    }
+}
+
+
+
+/* owl carrasol */
+.carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+  }
+  
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+  
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+  
